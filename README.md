@@ -27,7 +27,7 @@ This project is Python API for MANUS Core 3.1. We follow the adaption in [Bidex_
     sudo udevadm control --reload-rules && sudo udevadm trigger
     ```
 
-- Copy `SDKClient_Linux/ManusSDK/lib/libManusSDK_Integrated.so` from the offcial SDK (you can also download it from [here](https://drive.google.com/file/d/1zMkH40ndV10q5fFWzOPQXwjWkp026bLv/view?usp=drive_link)) and place it to `SDKClient_Linux/ManusSDK/lib/libManusSDK.so`.
+- Copy `SDKClient_Linux/ManusSDK/lib/libManusSDK_Integrated.so` from the offcial SDK and rename it to `LibManusSDK.so`. You can also download it from [here](https://drive.google.com/file/d/1zMkH40ndV10q5fFWzOPQXwjWkp026bLv/view?usp=drive_link). Place it to `SDKClient_Linux/ManusSDK/lib/libManusSDK.so`.
 
 - Build the SDK.
     ```bash
